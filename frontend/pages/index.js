@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar/NavBar";
-import Images from '../img'
+import Images from "../img";
 import Head from "next/head";
 
 const Home = () => {
@@ -8,7 +8,6 @@ const Home = () => {
       <Head>
         <title>NFT Market place</title>
       </Head>
-      
       <NavBar />
     </div>
   );
