@@ -10,16 +10,12 @@ const HeroSection = () => {
     <div className={Style.heroSection}>
       <div className={Style.heroSection_box}>
         <div className={Style.heroSection_box_left}>
-          <h1>Discover, collect and 
-            sell NFTs</h1>
-            <p>
+          <h1>Discover, collect and sell NFTs</h1>
+          <p>
             Discover the most outstanding NTFs in all topics of life. Creative
             your NTFs and sell them
           </p>
-          <Button
-            btnName="Start your search"
-            handleClick={() => {}}
-          />
+          <Button btnName="Start your search" handleClick={() => {}} />
         </div>
         <div className={Style.heroSection_box_right}>
           <Image
